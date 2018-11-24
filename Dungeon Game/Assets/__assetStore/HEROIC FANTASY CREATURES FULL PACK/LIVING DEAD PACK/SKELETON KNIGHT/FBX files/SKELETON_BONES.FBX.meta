@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: c679eeaad90baad488423537fd05f483
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: humerus
+    100002: jaw
+    100004: femur
+    100006: skull
+    100008: //RootNode
+    100010: thorax_spine_hips
+    100012: cubitus_radius_hand
+    100014: tibias_perone_foot
+    100016: CALF_FOOT
+    100018: FEMUR
+    100020: HUMERUS
+    100022: SKULL
+    100024: THORAX_SPINE_HIPS
+    100026: ULNA_RADIUS_HAND
+    100028: JAWqqqq
+    100030: JAW
+    400000: humerus
+    400002: jaw
+    400004: femur
+    400006: skull
+    400008: //RootNode
+    400010: thorax_spine_hips
+    400012: cubitus_radius_hand
+    400014: tibias_perone_foot
+    400016: CALF_FOOT
+    400018: FEMUR
+    400020: HUMERUS
+    400022: SKULL
+    400024: THORAX_SPINE_HIPS
+    400026: ULNA_RADIUS_HAND
+    400028: JAWqqqq
+    400030: JAW
+    2300000: humerus
+    2300002: jaw
+    2300004: femur
+    2300006: skull
+    2300008: thorax_spine_hips
+    2300010: cubitus_radius_hand
+    2300012: tibias_perone_foot
+    2300014: CALF_FOOT
+    2300016: FEMUR
+    2300018: HUMERUS
+    2300020: SKULL
+    2300022: THORAX_SPINE_HIPS
+    2300024: ULNA_RADIUS_HAND
+    2300026: JAWqqqq
+    2300028: JAW
+    3300000: humerus
+    3300002: jaw
+    3300004: femur
+    3300006: skull
+    3300008: thorax_spine_hips
+    3300010: cubitus_radius_hand
+    3300012: tibias_perone_foot
+    3300014: CALF_FOOT
+    3300016: FEMUR
+    3300018: HUMERUS
+    3300020: SKULL
+    3300022: THORAX_SPINE_HIPS
+    3300024: ULNA_RADIUS_HAND
+    3300026: JAWqqqq
+    3300028: JAW
+    4300000: skull
+    4300002: jaw
+    4300004: femur
+    4300006: humerus
+    4300008: thorax_spine_hips
+    4300010: cubitus_radius_hand
+    4300012: tibias_perone_foot
+    4300014: SKULL
+    4300016: FEMUR
+    4300018: HUMERUS
+    4300020: THORAX_SPINE_HIPS
+    4300022: ULNA_RADIUS_HAND
+    4300024: CALF_FOOT
+    4300026: JAWqqqq
+    4300028: JAW
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
