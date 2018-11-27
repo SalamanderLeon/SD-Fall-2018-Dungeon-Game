@@ -9,6 +9,8 @@ public class Map : MonoBehaviour {
 	public GameObject[] mPF;
 	public int stairRate = 0;
 	bool stairs = false;
+    public int enemiesOnFloor = 0;
+    public int keysOnFloor = 0;
 
 	// Use this for initialization
 	void Start()
@@ -34,7 +36,7 @@ public class Map : MonoBehaviour {
 				float x = i * 10;
 				float y = j * 10;
 
-				if (Random.Range(1, 10) < stairRate && stairs == false)
+				if (Random.Range(1, size*size) < stairRate && stairs == false)
 				{
 					GameObject room = Instantiate(mPF[mPF.Length - 1], new Vector3(x, 0, y), Quaternion.identity) as GameObject;
 					room.transform.parent = GameObject.Find("level").transform;
@@ -45,10 +47,23 @@ public class Map : MonoBehaviour {
 					int n = Random.Range(0, mPF.Length - 1);
 					GameObject room = Instantiate(mPF[n], new Vector3(x, 0, y), Quaternion.identity) as GameObject;
 					room.transform.parent = GameObject.Find("level").transform;
+
+                    if (mPF[n].CompareTag("enemyTile"))
+                    {
+                        ++enemiesOnFloor;
+                    }
+
+                    if (mPF[n].CompareTag("keyTile"))
+                    {
+                        ++keysOnFloor;
+                    }
+
 					++stairRate;
 				}
 			}
 		}
+        Debug.Log("Enemies on floor: " + enemiesOnFloor);
+        Debug.Log("Keys on floor: " + keysOnFloor);
 
 	}
 

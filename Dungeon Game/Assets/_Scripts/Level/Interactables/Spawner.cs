@@ -11,6 +11,7 @@ public class Spawner : MonoBehaviour {
     }
     void Spawn()
     {
-        Instantiate(prefab, transform.position, Quaternion.identity);
+        GameObject spawned = Instantiate(prefab, transform.position, Quaternion.identity);
+        spawned.transform.parent = this.transform;
     }
 }
