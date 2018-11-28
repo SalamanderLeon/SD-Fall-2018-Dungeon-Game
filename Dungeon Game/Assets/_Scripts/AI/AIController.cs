@@ -21,28 +21,35 @@ public class AIController : MonoBehaviour {
 	void Update () {
         anim = gameObject.GetComponent<Animator>();
         anim.SetBool("walking", false);
+        anim.SetBool("attacking", false);
 
         if (player != null)
         {
+            // Awareness
             isAwared = Vector3.Magnitude(transform.position - player.transform.position) < awarenessRadius;
             if (isAwared)
             {
                 Vector3 lookAt = (player.transform.position - transform.position);
                 lookAt.y = 0.0f;    
 
-                // Apply force here
+                // If player is in range will move towards them
                 if (Vector3.Magnitude(player.transform.position - transform.position) > personalSpaceRadius)
                 {
                     // Apply force
-                    transform.position = transform.position + lookAt * speed;
                     anim.SetBool("walking", true);
+                    transform.position = transform.position + lookAt * speed;
+                }
+                // If in range will attack
+                if (Vector3.Magnitude(player.transform.position - transform.position) < personalSpaceRadius)
+                {
+                    anim.SetBool("attacking", true);
+                    
                 }
 
                 lookAt = transform.forward + lookAt * 0.1f;
                 transform.forward = Vector3.Normalize(lookAt);
-
-
             }
+           
         }
 
 
