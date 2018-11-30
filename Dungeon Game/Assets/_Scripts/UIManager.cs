@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour {
 
     public Button StartButton;
+    public Button OptionButton;
     public Button CreditButton;
     public Button ExitButton;
 
     // Use this for initialization
     void Start () {
         StartButton.onClick.AddListener(MoveToStart);
+        OptionButton.onClick.AddListener(MoveToOption);
         CreditButton.onClick.AddListener(MoveToCredit);
         ExitButton.onClick.AddListener(MoveToMainmenu);
 	}
@@ -37,5 +39,10 @@ public class UIManager : MonoBehaviour {
     {
         SceneManager.LoadScene("Main");
         Debug.Log("clicked exit");
+    }
+    void MoveToOption()
+    {
+        SceneManager.LoadScene("Control");
+        Debug.Log("clicked option");
     }
 }

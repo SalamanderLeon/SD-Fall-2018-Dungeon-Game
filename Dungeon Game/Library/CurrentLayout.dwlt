@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 52
+  controlID: 11
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 255
     height: 626
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -124,7 +124,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 3
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3696
+  m_LastSelectedObjectID: 23578
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,6 +323,7 @@ MonoBehaviour:
     - {fileID: 1107565388429214816, guid: 618db844705b7de4eb04f0f1cf9bf90b, type: 2}
     - {fileID: 1107986277813169560, guid: 4a2c4dbee89a409448f8149b5657867f, type: 2}
     - {fileID: 1107620338678638050, guid: bf0bb28b7be76b14ab13b5ab0615c68e, type: 2}
+    - {fileID: 1107150665342798438, guid: 31ed66c164a1ee742b9e9ad2627017d7, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.595
       e01: 0
@@ -364,6 +365,22 @@ MonoBehaviour:
       e11: 0.4555149
       e12: 0
       e13: 26.497147
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -480,20 +497,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/__assetStore/HEROIC FANTASY CREATURES FULL PACK/LIVING DEAD PACK/GHOUL
+    - Assets/_UI
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/__assetStore/HEROIC FANTASY CREATURES FULL PACK/LIVING DEAD PACK/GHOUL
+  - Assets/_UI
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\1810263\Desktop\SD-Fall-2018-Dungeon-Game\Dungeon Game
+  m_LastProjectPath: H:\SD-Fall-2018-Dungeon-Game\Dungeon Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 163c0000
-    m_LastClickedID: 15382
-    m_ExpandedIDs: 00000000ba350000223c0000103d0000fa3e0000883f0000bc4000009a42000000ca9a3b
+    scrollPos: {x: 0, y: 297}
+    m_SelectedIDs: 0e330000
+    m_LastClickedID: 13070
+    m_ExpandedIDs: 000000003632000004390000003a0000023c0000983c0000f03d00000640000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -521,7 +538,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba350000223c0000103d0000fa3e0000
+    m_ExpandedIDs: 000000003632000004390000003a0000023c0000983c0000f03d000006400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -548,8 +565,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000144e0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000144e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,28 +654,28 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 90f1ffff
-    m_LastClickedID: -3696
-    m_ExpandedIDs: a0f2ffff1cf3ffff00000000ae430000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 2c57fcff2279fcff4663feff26fafefff8fcfeffc6fefeffd8fefeffd210ffffee7cffffac9cffff029effff38f0ffff7cf9ffff00000000a6460000c6460000a2480000d6480000544a0000744a0000fa5b00001a5c0000505f0000605f0000745f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GHOUL_PBR
-      m_OriginalName: GHOUL_PBR
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -3696
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - Dugeon1
+  - Control
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -689,14 +706,14 @@ MonoBehaviour:
     height: 605
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 658.4811858645676
+  lastFramingTime: 2521.9627307597443
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.390283, y: 0.24168181, z: -4.216338}
+    m_Target: {x: 595, y: 253.97205, z: -0.000015258789}
     speed: 2
-    m_Value: {x: -3.390283, y: 0.24168181, z: -4.216338}
+    m_Value: {x: 595, y: 253.97205, z: -0.000015258789}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -724,13 +741,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.09670641, y: 0.86642194, z: -0.18467255, w: -0.45371452}
+    m_Target: {x: -0.09733742, y: 0.014328874, z: -0.0014015732, w: -0.9951473}
     speed: 2
-    m_Value: {x: -0.09670642, y: 0.866422, z: -0.18467256, w: -0.45371455}
+    m_Value: {x: -0.09733742, y: 0.014328874, z: -0.0014015732, w: -0.9951473}
   m_Size:
-    m_Target: 9.459792
+    m_Target: 829.75214
     speed: 2
-    m_Value: 9.459792
+    m_Value: 829.75214
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -842,7 +859,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 567
+    y: 718
     width: 1447
-    height: 451
+    height: 300
   m_PersistentViewDataDictionary: {fileID: 0}

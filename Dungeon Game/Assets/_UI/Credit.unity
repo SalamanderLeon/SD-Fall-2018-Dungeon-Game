@@ -919,7 +919,7 @@ RectTransform:
   m_GameObject: {fileID: 1128924206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.1, z: 1}
   m_Children: []
   m_Father: {fileID: 964271700}
   m_RootOrder: 0
@@ -1218,6 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4016e3e07693da145a15ed389b694362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartButton: {fileID: 1034130674}
   CreditButton: {fileID: 1034130674}
   ExitButton: {fileID: 668354645}
 --- !u!1 &1979920215

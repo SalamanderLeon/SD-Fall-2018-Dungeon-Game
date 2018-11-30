@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/UI/Main.unity
+    path: Assets/_UI/Main.unity
     guid: e4b9b22aff6bde746840c96ecd69be0d
   - enabled: 1
-    path: Assets/UI/Credit.unity
+    path: Assets/_UI/Credit.unity
     guid: f43b43da08e68134080f59fe5ee9c024
   - enabled: 1
     path: Assets/_Scenes/Dugeon1.unity
     guid: 2245956863207f0418a8df4ddaf9126f
+  - enabled: 1
+    path: Assets/_UI/Control.unity
+    guid: 820edd56f991fc2479f018f45295add6
   m_configObjects: {}
