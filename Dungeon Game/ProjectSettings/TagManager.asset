@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - enemyTile
   - keyTile
+  - Laser
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
+  - enemy_arm
+  - enemy_body
   - 
   - 
   - 

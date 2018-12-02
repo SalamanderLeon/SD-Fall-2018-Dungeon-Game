@@ -8,7 +8,9 @@ using UnityEngine.UI;
 public class controlUI : MonoBehaviour {
 
     Animator anim;
-   
+
+    public int keycount;
+
     [Header("Player Attributes")]
     public int hp;
     [Range(0,100)]
@@ -45,7 +47,9 @@ public class controlUI : MonoBehaviour {
            
             //Debug.Log("Dead!");
         }
-      
+
+       
+
     }
     public void TakeDamage(int amount)
     {
@@ -59,4 +63,26 @@ public class controlUI : MonoBehaviour {
         //    //Debug.Log("Dead!");
         //}
     }
+
+    public void keylogs()
+    {
+        //if (keycount == 1)
+        //{
+        //    Fungus.Flowchart.BroadcastFungusMessage("onekey");
+        //}
+
+        keycount++;
+        if (keycount == 1)
+        { Fungus.Flowchart.BroadcastFungusMessage("onekey"); }
+        else if (keycount == 2)
+        { Fungus.Flowchart.BroadcastFungusMessage("twokeys"); }
+        else if (keycount == 3)
+        { Fungus.Flowchart.BroadcastFungusMessage("threekeys"); }
+        else if (keycount == 4)
+        { Fungus.Flowchart.BroadcastFungusMessage("gamewin"); }
+    }
+
+    
+
+
 }
