@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 [RequireComponent(typeof(Animator))]
-public class controlUI : MonoBehaviour {
+public class Tasksystem : MonoBehaviour {
 
     Animator anim;
-
+    public Map mkey;
     public int keycount;
 
     [Header("Player Attributes")]
@@ -70,7 +71,6 @@ public class controlUI : MonoBehaviour {
         //{
         //    Fungus.Flowchart.BroadcastFungusMessage("onekey");
         //}
-
         keycount++;
         if (keycount == 1)
         { Fungus.Flowchart.BroadcastFungusMessage("onekey"); }
@@ -79,10 +79,18 @@ public class controlUI : MonoBehaviour {
         else if (keycount == 3)
         { Fungus.Flowchart.BroadcastFungusMessage("threekeys"); }
         else if (keycount == 4)
-        { Fungus.Flowchart.BroadcastFungusMessage("gamewin"); }
+        {
+            Fungus.Flowchart.BroadcastFungusMessage("gamewin");          
+            Fungus.Flowchart.BroadcastFungusMessage("Reload");
+            Invoke("ReloadScene", 5);
+        }
     }
 
-    
-
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene("Main", LoadSceneMode.Additive);
+    }
 
 }
+
+
