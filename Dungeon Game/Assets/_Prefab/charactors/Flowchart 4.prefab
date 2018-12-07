@@ -107,7 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: You win this game!
+  storyText: You win!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

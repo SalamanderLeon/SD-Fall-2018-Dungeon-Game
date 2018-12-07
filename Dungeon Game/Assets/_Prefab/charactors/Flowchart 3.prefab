@@ -57,7 +57,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: 'Task goal: get four keys.'
+  storyText: 'Goal: get four keys.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Totally get:three keys.
+  storyText: 'Total: three keys.
 
 '
   description: 

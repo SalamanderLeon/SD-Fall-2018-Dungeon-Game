@@ -57,7 +57,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: 'Task goal: get four keys.'
+  storyText: 'Goal: get four keys.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Totally get:one key.
+  storyText: 'Total keys: one key.
 
 
 '
@@ -164,7 +164,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 114380667292968012}
   selectedCommands:
-  - {fileID: 114235061842228986}
+  - {fileID: 114072378992176596}
   variables: []
   description: 
   stepPause: 0
