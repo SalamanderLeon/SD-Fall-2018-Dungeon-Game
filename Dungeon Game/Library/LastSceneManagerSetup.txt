@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_UI/Main.unity
+- path: 'Assets/RPG Unitframe #1/Demo.unity'
   isLoaded: 1
   isActive: 1

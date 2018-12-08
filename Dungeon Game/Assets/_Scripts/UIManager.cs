@@ -7,16 +7,18 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour {
 
     public Button StartButton;
-    public Button OptionButton;
+    public Button ControlButton;
     public Button CreditButton;
     public Button ExitButton;
+    public Button Exit;
 
     // Use this for initialization
     void Start () {
         StartButton.onClick.AddListener(MoveToStart);
-        OptionButton.onClick.AddListener(MoveToOption);
+        ControlButton.onClick.AddListener(MoveToControl);
         CreditButton.onClick.AddListener(MoveToCredit);
         ExitButton.onClick.AddListener(MoveToMainmenu);
+        Exit.onClick.AddListener(ExitGame);
 	}
 	
 	// Update is called once per frame
@@ -40,9 +42,15 @@ public class UIManager : MonoBehaviour {
         SceneManager.LoadScene("Main");
         Debug.Log("clicked exit");
     }
-    void MoveToOption()
+    void MoveToControl()
     {
         SceneManager.LoadScene("Control");
         Debug.Log("clicked option");
+    }
+    void ExitGame()
+    {
+        Application.Quit();
+        Debug.Log("clicked closeGame");
+       
     }
 }

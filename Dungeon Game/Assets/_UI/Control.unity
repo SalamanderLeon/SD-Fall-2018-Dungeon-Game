@@ -491,9 +491,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartButton: {fileID: 1617883675}
-  OptionButton: {fileID: 1617883675}
+  ControlButton: {fileID: 1617883675}
   CreditButton: {fileID: 1617883675}
   ExitButton: {fileID: 88807362}
+  Exit: {fileID: 1617883675}
 --- !u!1 &1236923074
 GameObject:
   m_ObjectHideFlags: 0
