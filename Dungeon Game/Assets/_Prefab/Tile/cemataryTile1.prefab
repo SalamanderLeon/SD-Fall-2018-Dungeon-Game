@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 114462067767421572}
   - component: {fileID: 114487627954527356}
   - component: {fileID: 65448665475201362}
+  - component: {fileID: 114236802146517990}
   m_Layer: 0
   m_Name: DoorHinge1
   m_TagString: Untagged
@@ -563,7 +564,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1752415646200104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.882544, y: 23.982101, z: 9.02769}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4964610369432424}
@@ -1450,9 +1451,20 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1416929254006442}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 197b911ab59d06543bbb2a0d91a515cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114236802146517990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1416929254006442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7e8e5bcf6f2104ab4d462d8c488eaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114348744328749218
@@ -1617,7 +1629,7 @@ MonoBehaviour:
   bools: 
   strings: []
   vector3s:
-  - {x: 0, y: 90, z: 0}
+  - {x: 0, y: 180, z: 0}
   colors: []
   spaces: 
   easeTypes: 
@@ -1758,7 +1770,7 @@ MonoBehaviour:
   bools: 
   strings: []
   vector3s:
-  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 90, z: 0}
   colors: []
   spaces: 
   easeTypes: 
