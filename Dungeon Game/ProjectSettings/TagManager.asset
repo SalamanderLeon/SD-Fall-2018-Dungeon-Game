@@ -9,6 +9,7 @@ TagManager:
   - enemyTile
   - keyTile
   - Laser
+  - Arm
   layers:
   - Default
   - TransparentFX

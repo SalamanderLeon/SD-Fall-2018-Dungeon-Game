@@ -17,11 +17,13 @@ public class AIController : MonoBehaviour {
         player = GameObject.FindGameObjectWithTag("Player");
     }
 	
+
 	// Update is called once per frame
 	void Update () {
         anim = gameObject.GetComponent<Animator>();
         anim.SetBool("walking", false);
         anim.SetBool("attacking", false);
+        
 
         if (player != null)
         {
@@ -43,6 +45,7 @@ public class AIController : MonoBehaviour {
                 if (Vector3.Magnitude(player.transform.position - transform.position) < personalSpaceRadius)
                 {
                     anim.SetBool("attacking", true);
+                    
                     
                 }
 

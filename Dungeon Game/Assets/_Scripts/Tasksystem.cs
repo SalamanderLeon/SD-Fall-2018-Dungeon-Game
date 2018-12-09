@@ -13,7 +13,7 @@ public class Tasksystem : MonoBehaviour {
     public int keycount;
 
     [Header("Player Attributes")]
-    public int hp;
+    static public int hp;
     [Range(0,100)]
     public int hpmax=100;
 

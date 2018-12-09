@@ -6,21 +6,12 @@ using System.Collections;
 
 public class CustomScript : MonoBehaviour 
 {
-    public string myString = "";
-
-    public float timeToWait = 5f;
-
-    public void MyFunction()
+    private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Called my function");
+        if (collision.gameObject.name == "player")
+        {
+            Debug.Log("HIT! :D");
+        }
     }
 
-    public IEnumerator MyCoroutine()
-    {
-        Debug.Log("Called my coroutine");
-
-        yield return new WaitForSeconds(timeToWait);
-
-        Debug.Log("Coroutine finished");
-    }
 }
