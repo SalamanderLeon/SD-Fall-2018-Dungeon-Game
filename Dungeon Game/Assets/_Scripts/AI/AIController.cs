@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class AIController : MonoBehaviour {
 
     public int awarenessRadius = 2;
 
     public bool isAwared = false;
+    public static bool isAlive = true;
     public float personalSpaceRadius = 1.5f;
     public float speed = 0.01f;
     GameObject player;
@@ -29,7 +31,7 @@ public class AIController : MonoBehaviour {
         {
             // Awareness
             isAwared = Vector3.Magnitude(transform.position - player.transform.position) < awarenessRadius;
-            if (isAwared)
+            if (isAwared && isAlive)
             {
                 Vector3 lookAt = (player.transform.position - transform.position);
                 lookAt.y = 0.0f;    
@@ -45,8 +47,6 @@ public class AIController : MonoBehaviour {
                 if (Vector3.Magnitude(player.transform.position - transform.position) < personalSpaceRadius)
                 {
                     anim.SetBool("attacking", true);
-                    
-                    
                 }
 
                 lookAt = transform.forward + lookAt * 0.1f;

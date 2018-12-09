@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4372781397756372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4362681734818874}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4197453335468256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4650037525136680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4330837382132842}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4792353034372488}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4379886639081458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4743285097161180}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4200396816507692}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4098550072014542}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Ponytail1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4124215964208396}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,9 +184,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4240800214337832}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_
-  m_TagString: Untagged
+  m_TagString: Arm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4071097422435314}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4541126841781692}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4114912855105636}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4565588366892366}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4682435360498500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,7 +274,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4839775617727008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4214940542330142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +304,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4931532541375122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4023816959011680}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4259210770085900}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4502844337050298}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4420189575681702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4209940183822966}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4581473636472522}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4848411006481312}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4134027335092030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4708175095708302}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4586429698378646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016162905654168}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4986436596692898}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,9 +500,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4400711934848766}
   - component: {fileID: 137085717802114756}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -515,7 +515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4875063288705860}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4063917087385620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4964569148683928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4136459947453540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4448733612188690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4004496469881662}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4693698480482314}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,9 +620,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4687549224089746}
-  m_Layer: 0
+  - component: {fileID: 65803045025704212}
+  m_Layer: 9
   m_Name: GHOUL_ R Hand
-  m_TagString: Untagged
+  m_TagString: Arm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -635,7 +636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4425936046858634}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -650,7 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4095383026278808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,7 +666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4564517982910764}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971563357849366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4055541577592680}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -710,7 +711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4802605982098742}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,9 +727,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4024482838562176}
   - component: {fileID: 137828437279024746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_LEG_LEFT_BOILS
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4516485803904336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,9 +758,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4396408590833478}
   - component: {fileID: 137129538018346322}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ARM_RIGHT_BOILS
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -772,7 +773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4592089218648264}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4984617444451432}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,10 +807,12 @@ GameObject:
   - component: {fileID: 54890807697043944}
   - component: {fileID: 136407090931019834}
   - component: {fileID: 114193812318259984}
-  - component: {fileID: 136914682570839214}
-  m_Layer: 0
+  - component: {fileID: 114573807745510144}
+  - component: {fileID: 114629781348027122}
+  - component: {fileID: 114012997986231440}
+  m_Layer: 10
   m_Name: GHOUL_PBR
-  m_TagString: Enemy
+  m_TagString: EnemyBody
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,7 +825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4684501104165026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ R Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4158266950683324}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4221549466509644}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GHOUL_ L Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4296602919060106}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GHOUL_ R Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1571,7 +1574,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1924163672658044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.44006252, y: 0.37, z: -3.9791517}
+  m_LocalPosition: {x: 0.44006252, y: 0.37, z: -3.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4400711934848766}
@@ -1693,6 +1696,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!65 &65803045025704212
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719080561233390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.91, y: 0.19, z: 0.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95233205840883264
 Animator:
   serializedVersion: 3
@@ -1711,6 +1726,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114012997986231440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924163672658044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659271104fd302f4692d85c4b29b7577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mkey: {fileID: 0}
+  keycount: 0
+  hpmax: 15
+  hptext: {fileID: 0}
+  hpbar: {fileID: 0}
 --- !u!114 &114193812318259984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1727,6 +1758,30 @@ MonoBehaviour:
   personalSpaceRadius: 1.5
   speed: 0.01
   anim: {fileID: 95233205840883264}
+--- !u!114 &114573807745510144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924163672658044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51af2eaa10fc82418357d0ffd185f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 15
+--- !u!114 &114629781348027122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924163672658044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa79a1997e3fdc42a3009d7082b1df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mHealthBarGameObject: {fileID: 0}
 --- !u!136 &136407090931019834
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1740,19 +1795,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!136 &136914682570839214
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1924163672658044}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.1
-  m_Height: 0.1
-  m_Direction: 1
-  m_Center: {x: 1, y: 1.25, z: 0.3}
 --- !u!137 &137085717802114756
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -13,9 +13,9 @@ public class Tasksystem : MonoBehaviour {
     public int keycount;
 
     [Header("Player Attributes")]
-    static public int hp;
+    public static int hp;
     [Range(0,100)]
-    public int hpmax=100;
+    public int hpmax = 100;
 
     
 
@@ -52,17 +52,24 @@ public class Tasksystem : MonoBehaviour {
        
 
     }
-    public void TakeDamage(int amount)
+    private void OnCollisionEnter(Collision collision)
     {
-        hp -= amount;
+        
+        if ( collision.gameObject.tag == "Arm" )
+        {
+           // Debug.Log("Damager to Player by object TAG: " + collision.gameObject.tag);
+           // hp -= 10;
+           // Debug.Log("Current Health: " + hp);
 
-        //if (hp <= 0)
-        //{
-        //    hp = 0;
-            
-        //    gameObject.GetComponent<Animator>().Play("Die");
-        //    //Debug.Log("Dead!");
-        //}
+             //Apply damage to health
+             Health health = gameObject.GetComponent<Health>();
+            if (hp <= 0)
+            {
+                hp = 0;
+                gameObject.GetComponent<Animator>().Play("Die");
+                //Debug.Log("Dead!");
+            }
+        }
     }
 
     public void keylogs()
