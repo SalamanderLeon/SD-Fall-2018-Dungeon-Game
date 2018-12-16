@@ -1694,7 +1694,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &65803045025704212
 BoxCollider:
@@ -1781,6 +1781,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aa79a1997e3fdc42a3009d7082b1df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pain:
+  - {fileID: 8300000, guid: 44d980eea1bba1a439e53ddd8432807f, type: 3}
+  - {fileID: 8300000, guid: 7be447be836565d4995e29dc21dc8e9a, type: 3}
+  - {fileID: 8300000, guid: 6aec0cd7a9b6ef246b776a47f99abdb1, type: 3}
+  hurt: {fileID: 0}
   mHealthBarGameObject: {fileID: 0}
 --- !u!136 &136407090931019834
 CapsuleCollider:

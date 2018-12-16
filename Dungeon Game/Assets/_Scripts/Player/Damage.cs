@@ -7,6 +7,9 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour {
 
+
+    public AudioClip[] pain;
+    public AudioSource hurt;
     public HealthBar mHealthBarGameObject;
 	// Use this for initialization
 	void Start () {
@@ -44,6 +47,11 @@ public class Damage : MonoBehaviour {
             Debug.Log("Damager to Player by object TAG: " + collision.gameObject.tag);
             Debug.Log("Does damage! " + health.currentHealth);
             health.currentHealth -= 5;
+
+            int randClip = Random.Range(0, pain.Length);
+            hurt.clip = pain[randClip];
+            hurt.Play();
+
             if (health.currentHealth <= 0)
             {
                 AIController.isAlive = false;

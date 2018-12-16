@@ -25,7 +25,7 @@ public class AIController : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
         anim.SetBool("walking", false);
         anim.SetBool("attacking", false);
-        
+
 
         if (player != null)
         {
@@ -34,7 +34,7 @@ public class AIController : MonoBehaviour {
             if (isAwared && isAlive)
             {
                 Vector3 lookAt = (player.transform.position - transform.position);
-                lookAt.y = 0.0f;    
+                lookAt.y = 0.0f;
 
                 // If player is in range will move towards them
                 if (Vector3.Magnitude(player.transform.position - transform.position) > personalSpaceRadius)
@@ -52,7 +52,10 @@ public class AIController : MonoBehaviour {
                 lookAt = transform.forward + lookAt * 0.1f;
                 transform.forward = Vector3.Normalize(lookAt);
             }
-           
+            if (isAlive == false)
+            {
+                Destroy(gameObject, 3.0f);
+            }
         }
 
 
