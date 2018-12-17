@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using Fungus;
 
 [RequireComponent(typeof(Animator))]
 public class Tasksystem : MonoBehaviour {
@@ -11,7 +11,7 @@ public class Tasksystem : MonoBehaviour {
     Animator anim;
     public Map mkey;
     public int keycount;
-
+    public Flowchart fc;
     [Header("Player Attributes")]
     public static int hp;
     [Range(0,100)]
@@ -33,10 +33,12 @@ public class Tasksystem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        
         hp = hpmax;
         hpbar.fillAmount = (float)hp / (float)hpmax;
         anim = GetComponent<Animator>();
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -49,10 +51,11 @@ public class Tasksystem : MonoBehaviour {
             //Debug.Log("Dead!");
         }
 
-       
+        fc.SetIntegerVariable("keynumber", mkey.keysOnFloor);
+
 
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(UnityEngine.Collision collision)
     {
         
         if ( collision.gameObject.tag == "Arm" )
@@ -78,14 +81,22 @@ public class Tasksystem : MonoBehaviour {
         //{
         //    Fungus.Flowchart.BroadcastFungusMessage("onekey");
         //}
+       
+
         keycount++;
         if (keycount == 1)
-        { Fungus.Flowchart.BroadcastFungusMessage("onekey"); }
+        { Fungus.Flowchart.BroadcastFungusMessage("onekey");
+          Fungus.Flowchart.BroadcastFungusMessage("TaskGoal");
+        }
         else if (keycount == 2)
-        { Fungus.Flowchart.BroadcastFungusMessage("twokeys"); }
+        { Fungus.Flowchart.BroadcastFungusMessage("twokeys");
+          Fungus.Flowchart.BroadcastFungusMessage("TaskGoal");
+        }
         else if (keycount == 3)
-        { Fungus.Flowchart.BroadcastFungusMessage("threekeys"); }
-        else if (keycount == 4)
+        { Fungus.Flowchart.BroadcastFungusMessage("threekeys");
+          Fungus.Flowchart.BroadcastFungusMessage("TaskGoal");
+        }
+        if (keycount == mkey.keysOnFloor)
         {
             Fungus.Flowchart.BroadcastFungusMessage("gamewin");          
             Fungus.Flowchart.BroadcastFungusMessage("Reload");

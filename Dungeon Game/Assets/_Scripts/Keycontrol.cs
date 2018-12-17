@@ -23,7 +23,6 @@ public class Keycontrol : MonoBehaviour
         {
             
             Fungus.Flowchart.BroadcastFungusMessage("getkey");
-            
             Destroy(gameObject);
 
         }
