@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class MusicController : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class MusicController : MonoBehaviour {
 	public AudioMixerSnapshot shopping;
 	public AudioClip[] stings;
 	public AudioSource stingSource;
+
 	public float bpm = 128;
 
 	private float m_TransitionIn;
@@ -52,6 +54,5 @@ public class MusicController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
 	}
 }

@@ -12,7 +12,8 @@ public class Health : MonoBehaviour
 		if (currentHealth <= 0)
 		{
 			currentHealth = 0;
-			Debug.Log("Dead!");
+            gameObject.GetComponent<Animator>().SetTrigger("Die");
+            gameObject.GetComponent<AIController>().isAlive = false;
 		}
 	}
 }

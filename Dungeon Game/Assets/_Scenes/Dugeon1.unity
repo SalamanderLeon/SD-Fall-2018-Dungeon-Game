@@ -505,7 +505,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ILLIDAN STORMRAGE
+  m_Text: Skeleton
 --- !u!222 &155537712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1806,12 +1806,12 @@ Transform:
   m_Children:
   - {fileID: 310235887}
   - {fileID: 1316536311}
+  - {fileID: 1776432928}
   - {fileID: 1330890524}
   - {fileID: 2011683439}
   - {fileID: 783014279}
   - {fileID: 330357957}
   - {fileID: 2101913749}
-  - {fileID: 1776432928}
   - {fileID: 987370035}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -2782,7 +2782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1069759029}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821421233
 GameObject:

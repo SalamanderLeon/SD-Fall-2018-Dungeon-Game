@@ -16,33 +16,30 @@ public class Tasksystem : MonoBehaviour {
     public static int hp;
     [Range(0,100)]
     public int hpmax = 100;
-
-    
-
+    public static bool invincibled = false;
+    public static float invincibledTime = 0.0f;
 
     [Header("Player UI")]
     public Text hptext;
     public Image hpbar;
 
-
-
-
-   
-
-
-
 	// Use this for initialization
 	void Start () {
         
         hp = hpmax;
-        hpbar.fillAmount = (float)hp / (float)hpmax;
+        if(hpbar != null)
+        {
+            hpbar.fillAmount = (float)hp / (float)hpmax;
+        }
         anim = GetComponent<Animator>();
-        
     }
 	
 	// Update is called once per frame
 	void Update () {
-        hpbar.fillAmount = (float)hp / (float)hpmax;
+        if(hpbar != null)
+        {
+            hpbar.fillAmount = (float)hp / (float)hpmax;
+        }
         if (hp <= 0)
         {
             hp = 0;
@@ -51,21 +48,25 @@ public class Tasksystem : MonoBehaviour {
             //Debug.Log("Dead!");
         }
 
-        fc.SetIntegerVariable("keynumber", mkey.keysOnFloor);
+        if(fc != null)
+            fc.SetIntegerVariable("keynumber", mkey.keysOnFloor);
 
-
+        if (invincibledTime > 0.0f)
+            invincibledTime -= Time.deltaTime;
+        else
+            invincibled = false;
     }
+
     private void OnCollisionEnter(UnityEngine.Collision collision)
     {
-        
-        if ( collision.gameObject.tag == "Arm" )
+        Health health = gameObject.GetComponent<Health>();
+        if ( collision.gameObject.tag == "Arm" || collision.gameObject.tag == "Player")
         {
            // Debug.Log("Damager to Player by object TAG: " + collision.gameObject.tag);
            // hp -= 10;
            // Debug.Log("Current Health: " + hp);
 
              //Apply damage to health
-             Health health = gameObject.GetComponent<Health>();
             if (hp <= 0)
             {
                 hp = 0;

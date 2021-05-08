@@ -947,6 +947,7 @@ GameObject:
   - component: {fileID: 95812024124553850}
   - component: {fileID: 136974723617098436}
   - component: {fileID: 114557435784160290}
+  - component: {fileID: 114092083388428820}
   m_Layer: 0
   m_Name: SKELETON_KNIGHT_PBR
   m_TagString: Player
@@ -2173,6 +2174,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114092083388428820
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927310764675144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826e5d93930ea10409d6f2e063635c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  awarenessRadius: 2
+  isAwared: 0
+  isAlive: 1
+  personalSpaceRadius: 1.5
+  speed: 0.01
+  health: 5
+  anim: {fileID: 0}
 --- !u!114 &114557435784160290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2186,7 +2205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mkey: {fileID: 0}
   keycount: 0
-  hp: 0
+  fc: {fileID: 0}
   hpmax: 100
   hptext: {fileID: 0}
   hpbar: {fileID: 0}

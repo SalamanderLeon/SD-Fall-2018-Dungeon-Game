@@ -8,9 +8,10 @@ public class AIController : MonoBehaviour {
     public int awarenessRadius = 2;
 
     public bool isAwared = false;
-    public static bool isAlive = true;
+    public bool isAlive = true;
     public float personalSpaceRadius = 1.5f;
     public float speed = 0.01f;
+    public int health = 5;
     GameObject player;
 
     public Animator anim;
@@ -23,8 +24,12 @@ public class AIController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         anim = gameObject.GetComponent<Animator>();
-        anim.SetBool("walking", false);
-        anim.SetBool("attacking", false);
+        if(gameObject.name != "SKELETON_KNIGHT_PBR")
+        {
+            anim.SetBool("walking", false);
+            anim.SetBool("attacking", false);
+        }
+
 
 
         if (player != null)
@@ -40,13 +45,15 @@ public class AIController : MonoBehaviour {
                 if (Vector3.Magnitude(player.transform.position - transform.position) > personalSpaceRadius)
                 {
                     // Apply force
-                    anim.SetBool("walking", true);
+                    if (gameObject.name != "SKELETON_KNIGHT_PBR")
+                        anim.SetBool("walking", true);
                     transform.position = transform.position + lookAt * speed;
                 }
                 // If in range will attack
                 if (Vector3.Magnitude(player.transform.position - transform.position) < personalSpaceRadius)
                 {
-                    anim.SetBool("attacking", true);
+                    if (gameObject.name != "SKELETON_KNIGHT_PBR")
+                        anim.SetBool("attacking", true);
                 }
 
                 lookAt = transform.forward + lookAt * 0.1f;
@@ -57,8 +64,6 @@ public class AIController : MonoBehaviour {
                 Destroy(gameObject, 3.0f);
             }
         }
-
-
 	}
 
     private void OnDrawGizmos()
